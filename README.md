@@ -4,4 +4,75 @@
 <img width="701" height="460" alt="image" src="https://github.com/user-attachments/assets/8649cd38-2292-453d-a018-f050b332a2b8" />
 
 ## Description
-A fully Constructed 2-cylinder steam engine project, featuring design files. This repository includes CAD models for the engine.
+
+A fully engineered, 2-cylinder vertical steam engine designed for assembly.  
+This project includes complete CAD models, 3D-printable components, and hardware specs for a working demonstration engine with a shared crankshaft, crosshead guides, and a flywheel mounted on a wooden base.
+
+The design uses standard fasteners and realistic tolerances so that, once printed and cleaned up, the parts assemble with minimal adjustment.
+
+---
+
+### Mechanical Overview
+
+- **Configuration:** Twin vertical cylinders driven by a common crankshaft and flywheel  
+- **Structure:** Printed crankcase/block with bolt-on cylinder heads and bearing caps  
+- **Motion system:** Pistons → connecting rods → crank → flywheel  
+- **Guidance:** Vertical guide rods keep piston rods in pure linear motion  
+- **Base:** Wood base plate with mounting points for the engine frame and flywheel bearings  
+
+---
+
+### Tolerances and Fits
+
+The CAD is modeled with 3D-printing realities in mind:
+
+- **Shafts & holes (running fits)**  
+  - Shaft diameters: typically 4–6 mm (metal rod recommended)  
+  - Printed bearing bores: +0.10 to +0.20 mm over shaft diameter (e.g., 6.10–6.20 mm for a 6 mm shaft)  
+- **Fastener holes**  
+  - Through holes: +0.20–0.30 mm over screw diameter  
+  - Clearance for nuts and heads modeled with +0.20 mm all around  
+- **Press-fit features (pins, dowels)**  
+  - Undersize the *hole* relative to pin size, then drill to final size as needed  
+
+(If your printer is calibrated and precise, you can tighten these marginal numbers; else use clearances of another 0.05–0.10 mm.)
+
+---
+
+### Recommended Materials
+
+- **Structural parts (block, cylinder, crosshead guides, flywheel):**  
+  - PLA+ or PETG  
+- **Frictional components (Subject to high friction and constant motion):**  
+  - PETG or nylon preferred; PLA will work for demo use  
+- **Shafts & pins:**  
+  - Steel or brass rod stock (not printed) for better strength and wear
+
+---
+
+### Bambu Lab A1 Print Specs
+
+Optimized slicing settings:
+
+- **Nozzle:** 0.4 mm  
+- **Layer height:** 0.16–0.20 mm  
+- **Walls/perimeters:** 4  
+- **Top/bottom layers:** 6–8  
+- **Infill:**
+  - Structural parts (block, flywheel, bearing supports): 35–45% gyroid or cubic  
+  - Cosmetic/small brackets: 20–25%  
+- **Speed:** use A1 “Standard”
+- **Supports:**  
+  - On build plate only where possible  
+  - Flywheel: printed flat with support only under inner ring if necessary  
+- **Brim:** 5–8 mm brim on tall, slender parts (guides, columns)
+
+---
+
+### Notes on Assembly
+
+- Lightly sand all sliding and rotating interfaces.  
+- Re-drill critical bores (piston rod guides, main bearing bores, crank pin holes) to their final size.  
+- Dry-fit the crankshaft, flywheel, and rods first to ensure rotation before tightening fasteners.  
+- A tiny amount of grease or lube on shafts and crossheads will reduce friction significantly.
+
